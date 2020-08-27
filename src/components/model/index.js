@@ -1,6 +1,6 @@
 'use strict'
 
-const db = require('../components/db')
+const db = require('../db')
 const {InternalServerError} = require('../errors')
 
 class BaseModel {

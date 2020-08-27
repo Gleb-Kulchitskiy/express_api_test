@@ -14,6 +14,7 @@ const isAuth = expressJwt({
     secret: config.secret,
     requestProperty: 'token',
     getToken: getTokenFromHeader,
+    algorithms: ['argon2']
 })
 
 const attachUser = async (req, res, next) => {

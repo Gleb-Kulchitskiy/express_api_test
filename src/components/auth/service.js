@@ -1,11 +1,12 @@
 'use strict'
 
 const config = require('config').get('jwt')
+
 const argon2 = require('argon2')
 const jwt = require('jsonwebtoken')
 const UserModel = require('../user/model')
-const {pick} = require('../../utils/object')
-const {ApiError} = require('../../errors')
+const {pick} = require('../utils/object')
+const {ApiError} = require('../errors')
 
 class AuthService {
     constructor(UserModel) {

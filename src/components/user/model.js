@@ -1,6 +1,6 @@
 'use strict'
 
-const BaseModel = require('../../model')
+const BaseModel = require('../model')
 
 class User extends BaseModel {
     constructor(user = {}) {

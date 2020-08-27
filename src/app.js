@@ -5,7 +5,7 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 const logger = require('morgan')
 const usersRouter = require('./components/user')
-const authRouter = require('./components/auth')
+const {authRouter} = require('./components/auth')
 
 const app = express()
 

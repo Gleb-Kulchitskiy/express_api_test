@@ -1,0 +1,11 @@
+{
+  "server":{
+    "host":"localhost",
+    "port":3000
+  },
+  "jwt":{
+    "expiresIn":20000,
+    "secret":"some awesome secret"
+  }
+
+}

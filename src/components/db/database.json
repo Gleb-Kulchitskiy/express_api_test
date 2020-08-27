@@ -1,0 +1,15 @@
+{
+  "users":[
+    {
+    "id":1,
+    "firstName":"someFirstName",
+    "lastName":"someLastName",
+    "phone":"0954414141",
+    "email":"some@mail.com",
+    "password":"someHASH",
+    "meta":{
+      "description":"some description"
+      }
+    }
+  ]
+}
